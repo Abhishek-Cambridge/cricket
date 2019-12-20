@@ -1,0 +1,51 @@
+9:08:07 PM: Build ready to start
+9:08:10 PM: build-image version: 9cade8af58c2cf3a17a1e9433d2e979149488837
+9:08:10 PM: build-image tag: v3.3.5
+9:08:10 PM: buildbot version: 2d05064ce3dd2eb95d282a24602ab707dd9581e8
+9:08:10 PM: Fetching cached dependencies
+9:08:10 PM: Failed to fetch cache, continuing with build
+9:08:10 PM: Starting to prepare the repo for build
+9:08:11 PM: No cached dependencies found. Cloning fresh repo
+9:08:11 PM: git clone https://github.com/Abhishek-Cambridge/cricket
+9:08:11 PM: Preparing Git Reference refs/heads/master
+9:08:11 PM: Starting build script
+9:08:11 PM: Installing dependencies
+9:08:13 PM: Downloading and installing node v10.18.0...
+9:08:13 PM: Downloading https://nodejs.org/dist/v10.18.0/node-v10.18.0-linux-x64.tar.xz...
+9:08:14 PM: 
+######################################################################## 100.0%
+9:08:14 PM: Computing checksum with sha256sum
+9:08:14 PM: Checksums matched!
+9:08:17 PM: Now using node v10.18.0 (npm v6.13.4)
+9:08:17 PM: Attempting ruby version 2.6.2, read from environment
+9:08:18 PM: Using ruby version 2.6.2
+9:08:19 PM: Using PHP version 5.6
+9:08:19 PM: Started restoring cached go cache
+9:08:19 PM: Finished restoring cached go cache
+9:08:19 PM: unset GOOS;
+9:08:19 PM: unset GOARCH;
+9:08:19 PM: export GOROOT='/opt/buildhome/.gimme/versions/go1.12.linux.amd64';
+9:08:19 PM: export PATH="/opt/buildhome/.gimme/versions/go1.12.linux.amd64/bin:${PATH}";
+9:08:19 PM: go version >&2;
+9:08:19 PM: export GIMME_ENV='/opt/buildhome/.gimme/env/go1.12.linux.amd64.env';
+9:08:19 PM: go version go1.12 linux/amd64
+9:08:19 PM: Installing missing commands
+9:08:19 PM: Verify run directory
+9:08:19 PM: Executing user command: bulid
+9:08:19 PM: /usr/local/bin/build: line 63: bulid: command not found
+9:08:19 PM: Skipping functions preparation step: no functions directory set
+9:08:19 PM: Caching artifacts
+9:08:19 PM: Started saving pip cache
+9:08:19 PM: Finished saving pip cache
+9:08:19 PM: Started saving emacs cask dependencies
+9:08:19 PM: Finished saving emacs cask dependencies
+9:08:19 PM: Started saving maven dependencies
+9:08:19 PM: Finished saving maven dependencies
+9:08:19 PM: Started saving boot dependencies
+9:08:19 PM: Finished saving boot dependencies
+9:08:19 PM: Started saving go dependencies
+9:08:19 PM: Finished saving go dependencies
+9:08:27 PM: Error running command: Build script returned non-zero exit code: 127
+9:08:27 PM: Failing build: Failed to build site
+9:08:27 PM: failed during stage 'building site': Build script returned non-zero exit code: 127
+9:08:27 PM: Finished processing build request in 17.234332769s
